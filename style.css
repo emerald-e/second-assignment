@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+*{
+    font-family: 'Poppins' , sans-serif;
+    margin:0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: darkgray;
+    padding-bottom: 80px;
+}
+
+.container .content{
+    width: 700px;
+    text-align: center;
+}
+
+.container .content h3{
+    font-size: 5vw;
+    text-transform: uppercase;
+}
+
+.container .content p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.container .content p span{
+    color: crimson;
+}
+
+.container .content .logout{
+    display: inline-block;
+    margin-top: 10px;
+    background: #000;
+    color:#fff;
+    padding: 10px 35px;
+    font-size: 20px;
+}
+
+.container .content .logout:hover{
+    background: gray;
+}   
+
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    padding-bottom: 80px;
+}
+
+.form-container form{
+    text-align: center;
+    width: 500px;
+    background: gray;
+    color: whitesmoke;
+    border:2px solid gray;
+    padding: 20px;
+}
+
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.form-container form .box{
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 20px;
+    border:2px solid gray;
+    margin: 10px 0;
+}
+
+.form-container form .form-btn{
+    display: block;
+    margin: 10px 0;
+    background: cadetblue;
+    color:#fff;
+    padding: 15px 35px;
+    font-size: 20px;
+    width:100%;
+    cursor: pointer;
+}
+
+.form-container form .form-btn:hover{
+    background: skyblue;
+}
+
+.form-container form p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.form-container form p a{
+    color: salmon;
+}
+
+.form-container form .error-msg{
+    display: block;
+    margin: 10px 0;
+    background: salmon;
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+}
